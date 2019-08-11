@@ -1,0 +1,45 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 0.3rem;
+
+  font-size: 14px;
+}
+
+.item__wrapper {
+  width: 100%;
+}
+
+.item__remove {
+  margin: 0;
+  padding: 0;
+
+  border: none;
+  background: none;
+
+  cursor: pointer;
+}
+
+.item__name {
+  width: 40%;
+  word-break: break-all;
+}
+
+.item__price {
+  width: 20%;
+}
+
+.item__qty-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+}
+
+.item__qty-box input {
+  width: 35%;
+  padding: 0.3rem;
+  margin: 0.1rem ;
+}

@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.main__products {
+  flex-grow: 1;
+}

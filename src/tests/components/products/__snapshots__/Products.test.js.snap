@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Products without crashing 1`] = `
+<section
+  className="products"
+>
+  <Product
+    id={1}
+    key="1"
+    mediaUrl="http://placehold.it/200x200"
+    name="Sledgehammer"
+    price={125.75}
+  />
+  <Product
+    id={2}
+    key="2"
+    mediaUrl="http://placehold.it/200x200"
+    name="Axe"
+    price={190.5}
+  />
+  <Product
+    id={3}
+    key="3"
+    mediaUrl="http://placehold.it/200x200"
+    name="Bandsaw"
+    price={562.13}
+  />
+  <Product
+    id={4}
+    key="4"
+    mediaUrl="http://placehold.it/200x200"
+    name="Chisel"
+    price={12.9}
+  />
+  <Product
+    id={5}
+    key="5"
+    mediaUrl="http://placehold.it/200x200"
+    name="Hacksaw"
+    price={18.45}
+  />
+</section>
+`;

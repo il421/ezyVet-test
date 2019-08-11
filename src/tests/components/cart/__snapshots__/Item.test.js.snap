@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Item without crashing 1`] = `
+<div
+  className="item"
+  id={1}
+>
+  <div
+    className="item__name"
+  >
+    Sledgehammer
+  </div>
+  <div
+    className="item__price"
+  >
+    $125.75
+  </div>
+  <div
+    className="item__qty-box qty-box"
+  >
+    <button
+      className="qty-box__dec button button--qty"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <input
+      id={1}
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+    <button
+      className="qty-box__inc button button--qty"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+  <button
+    className="item__remove"
+    onClick={[Function]}
+  >
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon="times"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="2x"
+      spin={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </button>
+</div>
+`;

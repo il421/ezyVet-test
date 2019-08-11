@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Totals without crashing with correct totals value 1`] = `
+<div
+  className="totals"
+>
+  <div>
+    Totals: 
+    $316.25
+  </div>
+</div>
+`;

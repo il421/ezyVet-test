@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Product without crashing 1`] = `
+<article
+  className="product"
+  id={1}
+>
+  <img
+    alt="Product description"
+    className="product__img"
+    src="http://placehold.it/200x200"
+  />
+  <div
+    className="product__wrapper"
+  >
+    <div
+      className="product__name"
+    >
+      Sledgehammer
+    </div>
+    <div
+      className="product__price"
+    >
+      $125.75
+    </div>
+    <button
+      className="product__add button"
+      onClick={[Function]}
+    >
+      <span>
+        Add to cart
+      </span>
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon="cart-plus"
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size="1x"
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+    </button>
+  </div>
+</article>
+`;

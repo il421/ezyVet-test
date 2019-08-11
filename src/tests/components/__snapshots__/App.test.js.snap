@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App without crashing 1`] = `
+<div
+  className="app"
+>
+  <App />
+  <main
+    className="main"
+  >
+    <Connect(Products) />
+    <Connect(Cart) />
+  </main>
+</div>
+`;

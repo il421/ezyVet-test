@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Checkout without crashing 1`] = `
+<div
+  className="checkout"
+>
+  <button
+    className="checkout__close"
+    onClick={[Function]}
+  >
+    <FontAwesomeIcon
+      border={false}
+      className=""
+      fixedWidth={false}
+      flip={null}
+      icon="times"
+      inverse={false}
+      listItem={false}
+      mask={null}
+      pull={null}
+      pulse={false}
+      rotation={null}
+      size="2x"
+      spin={false}
+      symbol={false}
+      title=""
+      transform={null}
+    />
+  </button>
+  <div
+    className="checkout__wrapper"
+  >
+    <div
+      className="checkout__desc"
+    >
+      <h2>
+        Suglobov Ilya
+      </h2>
+      <div>
+        I used:
+      </div>
+      <ul>
+        <li>
+          React, Create React App (I can also use Webpack to build, and optimize projects)
+        </li>
+        <li>
+          Redux, Redux-Persist, Redux-Thunk
+        </li>
+        <li>
+          HTML5, CSS3 (usually I use SCSS, for the project with simple styles it is not necessary)
+        </li>
+        <li>
+          Jest, Enzyme
+        </li>
+      </ul>
+      <div>
+        Thank you!
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Cart without crashing 1`] = `
+<section
+  className="cart"
+>
+  <div
+    className="cart__wrapper"
+  >
+    <div
+      className="cart__actions actions"
+    >
+      <button
+        className="actions__checkout button"
+        onClick={[Function]}
+      >
+        Checkout
+      </button>
+      <button
+        className="actions__trash button"
+        onClick={[MockFunction]}
+      >
+        <FontAwesomeIcon
+          border={false}
+          className=""
+          fixedWidth={false}
+          flip={null}
+          icon="trash-alt"
+          inverse={false}
+          listItem={false}
+          mask={null}
+          pull={null}
+          pulse={false}
+          rotation={null}
+          size="1x"
+          spin={false}
+          symbol={false}
+          title=""
+          transform={null}
+        />
+      </button>
+    </div>
+    <div>
+      <Item
+        id={1}
+        key="0"
+        name="Sledgehammer"
+        price={125.75}
+        qty={1}
+        removeItem={[MockFunction]}
+        setItemQty={[MockFunction]}
+      />
+      <Item
+        id={2}
+        key="1"
+        name="Axe"
+        price={190.5}
+        qty={1}
+        removeItem={[MockFunction]}
+        setItemQty={[MockFunction]}
+      />
+    </div>
+  </div>
+  <Totals
+    cart={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Sledgehammer",
+          "price": 125.75,
+          "qty": 1,
+        },
+        Object {
+          "id": 2,
+          "name": "Axe",
+          "price": 190.5,
+          "qty": 1,
+        },
+      ]
+    }
+  />
+  <Modal
+    ariaHideApp={false}
+    bodyOpenClassName="ReactModal__Body--open"
+    className="modal"
+    closeTimeoutMS={200}
+    isOpen={false}
+    onRequestClose={[Function]}
+    parentSelector={[Function]}
+    portalClassName="ReactModalPortal"
+    role="dialog"
+    shouldCloseOnEsc={true}
+    shouldCloseOnOverlayClick={true}
+    shouldFocusAfterRender={true}
+    shouldReturnFocusAfterClose={true}
+  >
+    <Checkout
+      handleDisplayCheckoutModal={[Function]}
+    />
+  </Modal>
+</section>
+`;
